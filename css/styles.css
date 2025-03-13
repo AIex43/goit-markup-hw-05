@@ -470,4 +470,7 @@ img {
   margin-right: 120px
 }
 
+.email-input::placeholder {
+  color: #ffffff;
+}
 
