@@ -507,7 +507,7 @@ img {
       pointer-events: auto;
     }
 
-    /* Модальне вікно */
+
     .modal-window {
       position: absolute;
       top: 50%;
@@ -524,7 +524,6 @@ img {
       position: relative;
     }
 
-    /* Кнопка закриття модального вікна */
     .modal-close {
       position: absolute;
       top: 24px;
@@ -556,7 +555,7 @@ img {
       fill: #ffffff;
     }
 
-    /* Інформаційний параграф у модалці */
+
     .modal-info {
       font-weight: 500;
       font-size: 16px;
@@ -567,7 +566,7 @@ img {
       margin-bottom: 16px;
     }
 
-    /* Стилізація форми */
+
     .form-group {
       margin-bottom: 8px;
     }
@@ -599,7 +598,7 @@ img {
     .form-input:focus {
       border-color: #4D5AE5;
     }
-    /* Зміна кольору іконки при фокусі на input */
+
     .input-container .form-input:focus + .input-icon {
       fill: #4D5AE5;
     }
@@ -630,7 +629,7 @@ img {
       border-color: #4D5AE5;
     }
 
-    /* Стилізація чекбокса */
+
     .form-checkbox {
       margin-bottom: 24px;
     }
@@ -671,14 +670,13 @@ img {
       color: #4d5ae5;
       text-decoration: none;
     }
-    /* Стан чекбокса при виборі */
     #user-privacy:checked + label .checkbox-custom {
       background-color: #404bbf;
       border: none;
       fill: #F4F4FD;
     }
 
-    /* Стилі кнопки відправлення форми */
+ 
     .form-submit {
       display: block;
       min-width: 169px;
