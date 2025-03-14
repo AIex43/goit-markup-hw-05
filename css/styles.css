@@ -554,7 +554,10 @@ img {
     .modal-close:focus svg {
       fill: #ffffff;
     }
-
+    .input-container:hover
+    .input-container:focus {
+     border-color: #4D5AE5; 
+    }
 
     .modal-info {
       font-weight: 500;
