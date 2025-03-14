@@ -480,7 +480,27 @@
 
 
 
+ <script>
+    // Отримання елементів для відкриття та закриття модального вікна
+    const openModalBtn = document.querySelector('.hero-button');
+    const closeModalBtn = document.getElementById('close-modal');
+    const modal = document.getElementById('modal');
 
+    openModalBtn.addEventListener('click', () => {
+      modal.classList.add('active');
+    });
+
+    closeModalBtn.addEventListener('click', () => {
+      modal.classList.remove('active');
+    });
+
+    // Закриття модального вікна при кліку поза його межами
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        modal.classList.remove('active');
+      }
+    });
+  </script>
 
 
 
