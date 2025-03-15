@@ -471,20 +471,16 @@
   </div>
 </div>
 
-<script>
-  const modal = document.getElementById('modal');
-  const openModalBtn = document.querySelector('.hero-button');
-  const closeModalBtn = document.getElementById('close-modal');
+ <script>
+    // Отримання елементів модального банера та кнопки закриття
+    const modal = document.getElementById('modal');
+    const modalClose = document.getElementById('modal-close');
 
-  // Функція для відкриття/закриття модального вікна
-  const toggleModal = (isOpen) => modal.classList.toggle('active', isOpen);
-
-  openModalBtn?.addEventListener('click', () => toggleModal(true));
-  closeModalBtn?.addEventListener('click', () => toggleModal(false));
-  modal?.addEventListener('click', (e) => {
-    if (e.target === modal) toggleModal(false);
-  });
-</script>
+    // При натисканні на кнопку закриття додаємо клас "closed"
+    modalClose.addEventListener('click', () => {
+      modal.classList.add('closed');
+    });
+  </script>
 
 
 
