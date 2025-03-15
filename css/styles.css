@@ -693,7 +693,7 @@ form-textarea
 .checkbox-custom:checked {
   background-color:#404bbf;
   border: none;
-  fill: var(--primary-icon-fill);
+  fill: #F4F4FD;
 }
 
 .form-submit {
