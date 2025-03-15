@@ -483,7 +483,7 @@ img {
 
 
 
-.modal-close:hover {
+.modal-window button:hover {
   background-color: #404bbf;
   border: none;
   
@@ -613,6 +613,11 @@ img {
 .form-input:hover {
   border-color: #4D5AE5;
 }
+.form-textarea:focus,
+.form-textarea:hover {
+  border-color: #4D5AE5;
+}
+form-textarea
 .input-container .form-input:focus + .input-icon {
   fill: #4D5AE5;
 }
