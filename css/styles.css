@@ -690,8 +690,8 @@ form-textarea
   color: #4d5ae5;
   text-decoration: none;
 }
-#user-privacy:checked + label .checkbox-custom {
-  background-color: var(--primary-bg);
+.checkbox-custom:checked {
+  background-color:#404bbf;
   border: none;
   fill: var(--primary-icon-fill);
 }
