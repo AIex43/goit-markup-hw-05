@@ -483,8 +483,17 @@ img {
 
 
 
+.modal-close:hover {
+  background-color: #404bbf;
+  border: none;
+  
+}
 
-
+.form-submit:hover {
+  background-color: #404bbf;
+  border: none;
+  
+}
 
 
 
