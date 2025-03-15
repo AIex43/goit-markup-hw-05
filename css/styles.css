@@ -479,11 +479,7 @@ img {
 
 
   
-    :root {
-  --primary-bg: #404bbf;
-  --primary-icon-fill: #F4F4FD;
-  --input-focus-border: #4D5AE5;
-}
+
 
 .modal-container {
   position: fixed;
