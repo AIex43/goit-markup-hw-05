@@ -601,7 +601,7 @@ img {
   box-sizing: border-box;
 }
 .form-input:focus,
-.form-input:focus {
+.form-input:hover {
   border-color: #4D5AE5;
 }
 .input-container .form-input:focus + .input-icon {
