@@ -549,8 +549,8 @@ img {
       height: 8px;
       transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    .modal-close:hover,
-    .modal-close:focus {
+    .modal-close:hover .modal-button,
+    .modal-close:focus .modal-button{
       fill: #ffffff;
     }
     .input-container:hover,
