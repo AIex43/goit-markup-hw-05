@@ -698,3 +698,13 @@ form-textarea
   background-color: var(--primary-bg);
   border: none;
 }
+
+
+
+
+
+    .modal-close:hover,
+    .modal-close:focus {
+      background-color: #404bbf;
+      border: none;
+    }
