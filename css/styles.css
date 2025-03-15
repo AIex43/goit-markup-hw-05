@@ -479,7 +479,8 @@ img {
 
 
 
-.modal-button:hover {
+.modal-close:hover,
+.modal-close:focus {
   fill: #ffffff
 }
 
