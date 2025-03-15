@@ -479,7 +479,9 @@ img {
 
 
 
-
+.modal-button:hover {
+  fill: #ffffff
+}
 
 
 
@@ -690,10 +692,10 @@ form-textarea
   color: #4d5ae5;
   text-decoration: none;
 }
-.checkbox-custom:checked {
-  background-color:#404bbf;
+#user-privacy:checked + label .checkbox-custom {
+  background-color: var(--primary-bg);
   border: none;
-  fill: #F4F4FD;
+  fill: var(--primary-icon-fill);
 }
 
 .form-submit {
