@@ -613,8 +613,8 @@ img {
 }
 
 
-.form-input:hover + .input-icon use,
-.form-input:focus + .input-icon use {
+.form-input:focus ~ .input-icon,
+.input-container:hover .input-icon {
   fill: #4D5AE5;
 }
 
