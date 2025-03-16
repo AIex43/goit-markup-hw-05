@@ -613,11 +613,10 @@ img {
 }
 
 
-.form-input:focus svg,
-.form-input:hover svg {
-  fill: #4D5AE5; 
+.form-input:hover + .input-icon use,
+.form-input:focus + .input-icon use {
+  fill: #4D5AE5;
 }
-
 
 .form-textarea:focus,
 .form-textarea:hover {
