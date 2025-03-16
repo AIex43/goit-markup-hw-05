@@ -688,7 +688,7 @@ form-textarea
   color: #4d5ae5;
   text-decoration: none;
 }
-.user-privacy:checked + label .checkbox-custom {
+#user-privacy:checked + label .checkbox-custom {
   background-color: var(--primary-bg);
   border: none;
   fill: var(--primary-icon-fill);
